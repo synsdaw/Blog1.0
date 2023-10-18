@@ -10,13 +10,13 @@ module.exports = {
         href: "/avatar.jpg",
       },
     ],
-    [
-      "meta",
-      {
-        name: "viewport",
-        content: "width=device-width,initial-scale=1,user-scalable=no",
-      },
-    ],
+    // [
+    //   "meta",
+    //   {
+    //     name: "viewport",
+    //     content: "width=device-width,initial-scale=1,user-scalable=no",
+    //   },
+    // ],
   ],
   theme: "reco",
   themeConfig: {
@@ -99,4 +99,12 @@ module.exports = {
   markdown: {
     lineNumbers: true,
   },
+  plugins: [
+    [
+      "@vuepress/medium-zoom",
+      {
+        selector: ".page :not(a) > img",
+      },
+    ],
+  ],
 };
