@@ -19,6 +19,7 @@ module.exports = {
     // ],
   ],
   theme: "reco",
+
   themeConfig: {
     nav: [
       {
@@ -85,10 +86,16 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
+    // 设置时区偏移量（8小时）
+    timezoneOffset: 8 * 60 * 60 * 1000,
     author: "OuHao",
     authorAvatar: "/avatar.jpg",
+
+    // 备案
     record: "ICP 备案文案",
+    recordLink: "ICP 备案指向链接",
     cyberSecurityRecord: "公安部备案文案",
+    cyberSecurityLink: "公安部备案指向链接",
     startYear: "2023",
 
     valineConfig: {
@@ -96,9 +103,11 @@ module.exports = {
       appKey: "FB6FEnTqPllIdMPrFA5MJddk",
     },
   },
+
   markdown: {
     lineNumbers: true,
   },
+
   plugins: [
     [
       "@vuepress/medium-zoom",
@@ -107,4 +116,10 @@ module.exports = {
       },
     ],
   ],
+
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
 };
