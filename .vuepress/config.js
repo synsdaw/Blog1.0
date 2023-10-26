@@ -92,8 +92,8 @@ module.exports = {
     authorAvatar: "/avatar.jpg",
 
     // 备案
-    record: "ICP 备案文案",
-    recordLink: "ICP 备案指向链接",
+    record: "浙ICP备2023035604号-1",
+    recordLink: "https://beian.miit.gov.cn",
     cyberSecurityRecord: "公安部备案文案",
     cyberSecurityLink: "公安部备案指向链接",
     startYear: "2023",
