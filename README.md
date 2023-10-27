@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: OuHao's Blog
-tagline: 分享生活中的每个瞬间。
+tagline: 网络一线牵，珍惜这段缘💖
 heroImage: https://www.ohpooh.space/%E6%91%84%E5%BD%B1/%E5%A4%AA%E5%AD%90%E5%B0%96/haou-00756.jpg
 heroImageStyle: {
     # maxWidth: "600px",
