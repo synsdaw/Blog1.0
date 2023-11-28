@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Seize the day.
-tagline: 明确地爱，直接地厌恶，真诚地喜欢。
+tagline: 很多事不该随风，就该被抓在手心里。一边握紧，一边向前。
 heroImage: https://www.ohpooh.space/%E6%91%84%E5%BD%B1/%E5%A4%AA%E5%AD%90%E5%B0%96/haou-00756.jpg
 heroImageStyle: {
     # maxWidth: "600px",
